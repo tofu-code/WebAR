@@ -13,6 +13,7 @@
         <a-asset-item id="Pikachu" response-type="arraybuffer" src="./models/Pikachu/scene.gltf"></a-asset-item>
         <a-asset-item id="Pichu" response-type="arraybuffer" src="./models/Pichu/scene.gltf"></a-asset-item>
         <!-- <a-asset-item id="Pokeball" response-type="arraybuffer" src="./models/Pokeball/scene.gltf"></a-asset-item> -->
+        <img id="message" src="images/message.png">
         <img id="text" src="images/text.png">
       </a-assets>
 
@@ -20,6 +21,7 @@
         <a-entity gltf-model="#Pikachu" scale="0.25 0.25 0.25" position="0.3 0 0" rotation="0 0 0"></a-entity>
         <a-entity gltf-model="#Pichu" scale="0.01 0.01 0.01" position="-0.3 0 0" rotation="0 0 0"></a-entity>
         <!-- <a-entity gltf-model="#Pokeball" scale="0.001 0.001 0.001" position="-1 0 0" rotation="0 0 0"></a-entity> -->
+        <a-image src="#message" width="1" height="1" position="1 1.5 0" rotation="0 0 0"></a-image>
         <a-entity rotation="0 0 0" animation="property: rotation; from: 0 0 0; to: 0 360 0; dur: 4000; loop: true; easing: linear;">
           <a-image src="#text" width="2" height="2" rotation="-90 0 0"></a-image>
         </a-entity>
